@@ -2,6 +2,20 @@
 @tailwind components;
 @tailwind utilities;
 
+@layer base {
+  h3 {
+    @apply mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl;
+  }
+}
+
+.section-container {
+  @apply max-w-6xl mx-auto text-center;
+}
+
+.button-container {
+  @apply text-white w-min text-nowrap py-3 px-12 rounded-full hover:shadow-2xl hover:-translate-y-1 hover:opacity-80 transition-all duration-300;
+}
+
 body {
   background-image: url('./images/bg-header-desktop.png');
   background-repeat: no-repeat;
