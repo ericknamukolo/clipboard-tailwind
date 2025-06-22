@@ -11,8 +11,36 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="input.css" />
   </head>
   <body>
-    <h1 class="text-3xl">Hello world</h1>
+    <!-- Hero Section -->
+    <section id="hero">
+      <div class="max-w-6xl mx-auto text-center mb-40 px-10 pt-16">
+        <img src="./images/logo.svg" class="mx-auto my-16" alt="" />
+        <h3 class="mb-8 text-4xl font-bold text-darkGrayishBlue md:text-5xl">
+          A history of everything you copy
+        </h3>
+        <p class="max-w-2xl mx-auto mb-10 text-2xl text-grayishBlue">
+          Clipboard allows you to track and organize everything you copy.
+          Instantly access your clipboard on all your devices.
+        </p>
+        <!-- Button Container -->
+        <div
+          class="flex flex-col md:flex-row items-center justify-center gap-3 text-md"
+        >
+          <button
+            class="bg-strongCyan text-white w-min text-nowrap py-3 px-12 rounded-full hover:shadow-2xl hover:-translate-y-1 hover:opacity-80 transition-all duration-300"
+          >
+            Download for iOS
+          </button>
+          <button
+            class="bg-lightBlue text-white w-min text-nowrap py-3 px-12 rounded-full hover:shadow-2xl hover:-translate-y-1 hover:opacity-80 transition-all duration-300"
+          >
+            Download for Mac
+          </button>
+        </div>
+      </div>
+    </section>
   </body>
 </html>

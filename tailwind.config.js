@@ -10,10 +10,10 @@ module.exports = {
     },
     extend: {
       colors: {
-        strongCyan: '#00B2A9',
-        lightBlue: '#E5F6FF',
-        darskGrayishBlue: '#2B3945',
-        grayishBlue: '#A9B2C3',
+        strongCyan: 'hsl(171, 66%, 44%)',
+        lightBlue: 'hsl(233, 100%, 69%)',
+        darkGrayishBlue: 'hsl(210, 10%, 33%)',
+        grayishBlue: 'hsl(201, 11%, 66%)',
       },
       fontFamily: {
         sans: ['Bai Jamguree', 'sans-serif'],
