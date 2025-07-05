@@ -24,6 +24,11 @@
   @apply text-white w-min text-nowrap py-3 px-12 rounded-full hover:shadow-2xl hover:-translate-y-1 hover:opacity-80 transition-all duration-300;
 }
 
+.ficon:hover {
+  filter: invert(53%) sepia(68%) saturate(434%) hue-rotate(121deg)
+    brightness(101%) contrast(94%);
+}
+
 body {
   background-image: url('./images/bg-header-desktop.png');
   background-repeat: no-repeat;
